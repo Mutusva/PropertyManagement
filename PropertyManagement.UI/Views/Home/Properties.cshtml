@@ -1,0 +1,50 @@
+﻿@model PropertyModel
+@{
+    ViewData["Title"] = "Properties";
+}
+
+<hr />
+<div class="container">
+    @using (Html.BeginForm("Properties", "Home", FormMethod.Post, new { @class = "form-group" }))
+    {
+        @*@Html.EditorForModel()*@
+        @Html.Partial("~/Views/Shared/search.cshtml", Model.propertySearch)
+    }
+</div>
+<hr />
+<h5>Property Listing</h5>
+<div class="container">
+    <div class="row">
+        @if (Model.PropertyDetails.Count > 0)
+        {
+            foreach (var item in Model.PropertyDetails)
+            {
+                
+                <div class="media">
+                    <div class="media-left media-middle">
+                        @*<a href="#">
+                            <img class="media-object" src="data:image/jpg;base64,@item.Image" alt="Testing" style="width:200px;height: 220px;">
+                        </a>*@
+                        <a asp-controller="Home"
+                           asp-action="PropertyDetails"
+                           asp-route-id="@item.Id">
+                            <img class="media-object" src="data:image/jpg;base64,@item.Image" alt="Testing" style="width:200px;height: 220px;">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">@item.PropertyDesc</h4>
+                        <h4 class="media-heading"><em>Land Side: </em>@item.LandSize</h4>
+                        <h4 class="media-heading"><em>Bedrooms: </em>@Math.Round(item.NumOfBedrooms,1)</h4>
+                    </div>
+                </div>
+            }
+
+        }
+        else
+        {
+            <p>No Results found!</p>
+        }
+    </div>
+
+</div>
+

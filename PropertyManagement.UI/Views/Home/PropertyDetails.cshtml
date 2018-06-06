@@ -1,0 +1,21 @@
+﻿@model PropertyDetailViewModel
+<h3>Property Details</h3>
+
+<div class="media">
+    <div class="media-left media-middle">
+        <a href="#">
+            <img class="media-object" src="data:image/jpg;base64,@Model.Image" alt="Testing" style="width:220px;height: 220px;">
+        </a>
+    </div>
+    <div class="media-body">
+        <h4 class="media-heading"><em>Proprty Description: </em> @Model.PropertyDesc</h4>
+        <h4 class="media-heading"><em>Land Side: </em>@Model.LandSize</h4>
+        <h4 class="media-heading"><em>Bedrooms: </em>@Model.NumOfBedrooms</h4>
+        <h4 class="media-heading"><em>Bathrooms: </em>@Model.NumOfbathrooms</h4>
+        <h4 class="media-heading"><em>Kitchen(s): </em>@Model.NumOfKitchens</h4>
+        <h4 class="media-heading"><em>Parking Spots: </em>@Model.NumOfParkingSpots</h4>
+        <h4 class="media-heading"><em>Receptions: </em>@Model.NumOfReceptionRooms</h4>
+        <h4 class="media-heading"><em>Address: </em>@Model.PropertyAddress</h4>
+        
+    </div>
+</div>

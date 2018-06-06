@@ -1,0 +1,30 @@
+﻿@model PropertyManagement.Model.Models.PropertySearchModel
+ 
+<div class="form-row">
+    <div class="form-group col-md-3">
+        @*<label for="inputCity">City</label>*@
+        @Html.LabelFor(x => x.OwnerName)
+        @*<input type="text" class="form-control" id="inputCity">*@
+        @Html.TextBoxFor(x => x.OwnerName, new { @class = "form-control form-control-sm" })
+    </div>
+    <div class="form-group col-md-3">
+        @Html.LabelFor(x => x.Address)
+        @Html.TextBoxFor(x => x.Address, new { @class = "form-control form-control-sm" })
+    </div>
+    <div class="form-group col-md-2">
+        @Html.LabelFor(x => x.NumOfBedrooms)
+        @Html.DropDownListFor(x => x.NumOfBedrooms, new SelectList(new List<object> {new {value = 0,text ="Select" },
+new {value = 1,text ="One" },new {value = 2,text ="Two" },new {value = 3,text ="Three" },new {value = 4,text ="Four or More" }
+}, "value", "text"), new { @class = "form-control form-control-sm" })
+    </div>
+    <div class="form-group col-md-2">
+        @Html.LabelFor(x => x.NumOfBathrooms)
+        @Html.DropDownListFor(x => x.NumOfBathrooms, new SelectList(new List<object> {new {value = 0,text ="Select" },
+new {value = 1,text ="One" },new {value = 2,text ="Two" },new {value = 3,text ="Three" },new {value = 4,text ="Four or More" }
+}, "value", "text"), new { @class = "form-control form-control-sm" })
+    </div>
+    <div class="form-group col-md-2">
+        @*@Html.Label("Ser")*@
+        <button type="submit" class="btn btn-primary btn-sm center-block" style="margin:auto;">Search</button>
+    </div>
+</div>

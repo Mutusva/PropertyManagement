@@ -1,0 +1,12 @@
+C:\Users\mutus\Documents\Visual Studio 2017\Projects\PropertyManagement\PropertyManagement.Repository\bin\Debug\netcoreapp2.0\PropertyManagement.Repository.deps.json
+C:\Users\mutus\Documents\Visual Studio 2017\Projects\PropertyManagement\PropertyManagement.Repository\bin\Debug\netcoreapp2.0\PropertyManagement.Repository.dll
+C:\Users\mutus\Documents\Visual Studio 2017\Projects\PropertyManagement\PropertyManagement.Repository\bin\Debug\netcoreapp2.0\PropertyManagement.Repository.pdb
+C:\Users\mutus\Documents\Visual Studio 2017\Projects\PropertyManagement\PropertyManagement.Repository\bin\Debug\netcoreapp2.0\PropertyManagement.Model.dll
+C:\Users\mutus\Documents\Visual Studio 2017\Projects\PropertyManagement\PropertyManagement.Repository\bin\Debug\netcoreapp2.0\PropertyManagement.Model.pdb
+C:\Users\mutus\Documents\Visual Studio 2017\Projects\PropertyManagement\PropertyManagement.Repository\obj\Debug\netcoreapp2.0\PropertyManagement.Repository.csprojResolveAssemblyReference.cache
+C:\Users\mutus\Documents\Visual Studio 2017\Projects\PropertyManagement\PropertyManagement.Repository\obj\Debug\netcoreapp2.0\PropertyManagement.Repository.csproj.CoreCompileInputs.cache
+C:\Users\mutus\Documents\Visual Studio 2017\Projects\PropertyManagement\PropertyManagement.Repository\obj\Debug\netcoreapp2.0\PropertyManagement.Repository.AssemblyInfoInputs.cache
+C:\Users\mutus\Documents\Visual Studio 2017\Projects\PropertyManagement\PropertyManagement.Repository\obj\Debug\netcoreapp2.0\PropertyManagement.Repository.AssemblyInfo.cs
+C:\Users\mutus\Documents\Visual Studio 2017\Projects\PropertyManagement\PropertyManagement.Repository\obj\Debug\netcoreapp2.0\PropertyManagement.Repository.csproj.CopyComplete
+C:\Users\mutus\Documents\Visual Studio 2017\Projects\PropertyManagement\PropertyManagement.Repository\obj\Debug\netcoreapp2.0\PropertyManagement.Repository.dll
+C:\Users\mutus\Documents\Visual Studio 2017\Projects\PropertyManagement\PropertyManagement.Repository\obj\Debug\netcoreapp2.0\PropertyManagement.Repository.pdb

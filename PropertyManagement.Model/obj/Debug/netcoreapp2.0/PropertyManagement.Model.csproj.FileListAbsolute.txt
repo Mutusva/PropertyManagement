@@ -1,0 +1,9 @@
+C:\Users\mutus\Documents\Visual Studio 2017\Projects\PropertyManagement\PropertyManagement.Model\bin\Debug\netcoreapp2.0\PropertyManagement.Model.deps.json
+C:\Users\mutus\Documents\Visual Studio 2017\Projects\PropertyManagement\PropertyManagement.Model\bin\Debug\netcoreapp2.0\PropertyManagement.Model.dll
+C:\Users\mutus\Documents\Visual Studio 2017\Projects\PropertyManagement\PropertyManagement.Model\bin\Debug\netcoreapp2.0\PropertyManagement.Model.pdb
+C:\Users\mutus\Documents\Visual Studio 2017\Projects\PropertyManagement\PropertyManagement.Model\obj\Debug\netcoreapp2.0\PropertyManagement.Model.csproj.CoreCompileInputs.cache
+C:\Users\mutus\Documents\Visual Studio 2017\Projects\PropertyManagement\PropertyManagement.Model\obj\Debug\netcoreapp2.0\PropertyManagement.Model.AssemblyInfoInputs.cache
+C:\Users\mutus\Documents\Visual Studio 2017\Projects\PropertyManagement\PropertyManagement.Model\obj\Debug\netcoreapp2.0\PropertyManagement.Model.AssemblyInfo.cs
+C:\Users\mutus\Documents\Visual Studio 2017\Projects\PropertyManagement\PropertyManagement.Model\obj\Debug\netcoreapp2.0\PropertyManagement.Model.dll
+C:\Users\mutus\Documents\Visual Studio 2017\Projects\PropertyManagement\PropertyManagement.Model\obj\Debug\netcoreapp2.0\PropertyManagement.Model.pdb
+C:\Users\mutus\Documents\Visual Studio 2017\Projects\PropertyManagement\PropertyManagement.Model\obj\Debug\netcoreapp2.0\PropertyManagement.Model.csprojResolveAssemblyReference.cache
